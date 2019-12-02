@@ -1,6 +1,3 @@
-import * as React from 'react';
+import { TransitionGroup, Status } from "./TransitionGroup";
 
-// Delete me
-export const Thing = () => {
-  return <div>the snozzberries taste like snozzberries</div>;
-};
+export { TransitionGroup, Status };
