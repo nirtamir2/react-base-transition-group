@@ -1,3 +1,4 @@
-import { TransitionGroup, Status } from "./TransitionGroup";
+import { TransitionGroup } from "./TransitionGroup";
+import { Status } from "./types";
 
 export { TransitionGroup, Status };

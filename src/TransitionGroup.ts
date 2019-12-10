@@ -1,11 +1,6 @@
 import * as React from "react";
 import { mergeItemsStateWithNewItems } from "./mergeItemsStateWithNewItems";
-
-export enum Status {
-  ENTERED = "ENTERED",
-  NONE = "NONE",
-  EXITED = "EXITED",
-}
+import { Status } from "./types";
 
 type IId = string | number;
 

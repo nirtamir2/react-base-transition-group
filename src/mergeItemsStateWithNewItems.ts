@@ -1,5 +1,5 @@
-import { Status } from "./TransitionGroup";
-import { IItem, IItemWithStatus } from "TransitionGroup";
+import { Status } from "./types";
+import { IItem, IItemWithStatus } from "./TransitionGroup";
 
 export function mergeItemsStateWithNewItems<T extends IItem>(
   prevItemsState: IItemWithStatus<T>[],
