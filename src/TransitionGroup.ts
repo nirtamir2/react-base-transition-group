@@ -19,18 +19,28 @@ export interface IItemWithStatus<T extends IItem> {
 }
 
 interface IProps<T extends IItem> {
+  initialStatus?: Status.ENTERED | Status.NONE;
   items: T[];
   renderItem: (item: T, status: Status) => React.ReactElement;
 }
 
-function getInitialItemsWithStatus<T>(items: T[]) {
-  return items.map(item => ({ item, status: Status.ENTERED }));
+function getInitialItemsWithStatus<T>({
+  items,
+  initialStatus,
+}: {
+  items: T[];
+  initialStatus: Status.ENTERED | Status.NONE;
+}) {
+  return items.map(item => ({
+    item,
+    status: initialStatus,
+  }));
 }
 
 export function TransitionGroup<T extends IItem>(props: IProps<T>) {
-  const { items: newItems, renderItem } = props;
+  const { items: newItems, initialStatus = Status.NONE, renderItem } = props;
   const [itemsState, setItemsState] = React.useState<IItemWithStatus<T>[]>(() =>
-    getInitialItemsWithStatus(newItems)
+    getInitialItemsWithStatus({ items: newItems, initialStatus })
   );
 
   React.useEffect(() => {

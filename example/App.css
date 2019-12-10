@@ -1,0 +1,32 @@
+.App__notifications {
+  margin: 0;
+  padding: 0;
+}
+
+.App__notification {
+  height: 50px;
+  width: 300px;
+
+  list-style: none;
+}
+.App__notification--enter {
+  animation: 0.5s ani-notification-fade-in;
+}
+
+.App__notification--exit {
+  animation: 0.5s ani-notification-fade-out;
+}
+
+@keyframes ani-notification-fade-in {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes ani-notification-fade-out {
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}

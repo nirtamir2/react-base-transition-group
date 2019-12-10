@@ -2,42 +2,6 @@ body {
   background: #f8f9fa;
 }
 
-.App {
-  display: grid;
-  gap: 10px;
-  justify-content: center;
-}
-
-.App__notification {
-  width: 300px;
-  padding: 10px;
-
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 10px;
-  align-items: center;
-
-  background: #ffffff;
-  box-shadow: 2px 2px 5px #cccccc;
-  border-radius: 10px;
-}
-
-.App__notification--enter {
-  animation: 0.5s ani-notification-fade-in;
-}
-
-.App__notification--exit {
-  animation: 0.5s ani-notification-fade-out;
-}
-
-@keyframes ani-notification-fade-in {
-  from {
-    opacity: 0;
-  }
-}
-
-@keyframes ani-notification-fade-out {
-  to {
-    opacity: 0;
-  }
+* {
+  box-sizing: border-box;
 }
