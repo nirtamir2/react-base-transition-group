@@ -2,7 +2,15 @@
   "name": "react-base-transition-group",
   "version": "1.0.1",
   "license": "MIT",
-  "author": "Nir Tamir",
+  "author": {
+    "name": "Nir Tamir",
+    "email": "nirtamir2@gmail.com",
+    "url": "https://nirtamir.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirtamir2/react-base-transition-group"
+  },
   "main": "dist/index.js",
   "module": "dist/react-base-transition-group.esm.js",
   "typings": "dist/index.d.ts",
