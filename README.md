@@ -45,4 +45,4 @@ function App() {
 ```
 
 You can see the examples in the example folder.
-If you want the animation appear on the initial appear - you cas set the prop `initialStatus` to be `Status.ENTERED`.
+If you want the animation appear on the initial appear - you can set the prop `initialStatus` to be `Status.ENTERED`.
