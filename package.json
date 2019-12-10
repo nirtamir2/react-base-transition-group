@@ -1,6 +1,6 @@
 {
   "name": "react-base-transition-group",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Nir Tamir",
   "main": "dist/index.js",
