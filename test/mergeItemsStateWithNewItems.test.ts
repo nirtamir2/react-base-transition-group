@@ -1,4 +1,4 @@
-import { Status } from "../src/TransitionGroup";
+import { Status } from "../src/types";
 import { mergeItemsStateWithNewItems } from "../src/mergeItemsStateWithNewItems";
 
 describe("mergeItemsStateWithNewItems", () => {
