@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/react-base-transition-group.svg)](https://badge.fury.io/js/react-base-transition-group)
+
 # React Base Transition Group
 
 Open source library for managing component states (including mounting and unmounting) over time for css transitions and animations.
@@ -13,6 +15,8 @@ yarn add react-base-transition-group
 ```
 
 ## Usage
+
+[![Edit gifted-beaver-27o7m](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/gifted-beaver-27o7m?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.tsx&theme=dark)
 
 ```typescript jsx
 import cx from "classnames";
